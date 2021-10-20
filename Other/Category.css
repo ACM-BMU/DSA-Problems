@@ -1,0 +1,166 @@
+
+.sortByCategoriesBar{
+  font-family: Roboto;
+  float: left;
+  margin: 1rem ;
+  width: 16rem;
+}
+ .categoriesHeadingText{
+ font-size: 1.1rem;
+ padding-left:1.2rem;
+}
+.categoriesListContainer{
+  margin-left:-1rem;
+  border-bottom-style: solid;
+  border-color: #CECECF;
+  border-width: 0.2px;
+  margin-top: -0.5rem;
+  
+}
+.categoriesList{
+    list-style-type: none;
+    font-size: 0.9rem;
+    margin-left:-1rem;
+}
+.categoryOption{
+  padding: 0.3rem 0rem;
+  
+}
+.categoryFilterNumber{
+  float: right;
+}
+.searchByFilterContainer{
+  margin: 1rem 0rem 1rem -1rem;
+  border-bottom-style: solid;
+  border-color: #CECECF;
+  border-width: 0.2px;
+  
+}
+.searchByTitleSearchbar{
+  padding-bottom: 1rem;
+}
+#searchBarInput{
+width: 14rem;
+font-size: 1rem;
+padding: 0.5rem ;
+margin-left: 1rem;
+border: 0.2px solid #CECECF;
+border-radius: 2px;
+}
+
+.moneyFilterInput{
+  width: 5rem;
+  font-size:1rem;
+  padding:0.23rem;
+  border-radius: 0px 2px 2px 0px;
+  border: 0.2px solid #CECECF;
+  
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.moneyCategoryInputContainer{
+  padding-left: 0.5rem;
+  padding-right:0.5rem;
+}
+.dollarSymbolMoneyFilter{
+  font-size:0.8rem;
+  padding: 0.43rem 0.3rem 0.3rem 0.3rem;
+  border-left: 0.2px solid #CECECF;
+  border-top: 0.2px solid #CECECF;
+  border-bottom: 0.2px solid #CECECF;
+}
+
+
+
+#applyCategoryButtonId{
+  width: 15.2rem;
+  background-color: rgb(32, 204, 110);
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem 0rem 1rem 1rem;
+  border-radius: 5px;
+  color: white;
+}
+#applyCategoryButtonId:hover{
+background-color: rgb(253, 59, 59);
+}
+.deliveryTimeFilterList{
+  border-bottom-style: solid;
+  border-color: #CECECF;
+  border-width: 0.2px;
+  margin-left:-1rem;
+}
+#deliveryTimeTextHeading{
+  font-size:1.1rem;
+  padding-left: 1rem;
+}
+.deliveryTimeCategory{
+  padding-bottom: 0.8rem;
+  margin-left: -2.55rem;
+  padding-left: 1rem;
+}
+.deliveryTimeCategoryAny{
+  padding-left: 1rem;
+  margin-left: -2.55rem;
+}
+input[type="radio"] { 
+  transform: scale(1.4); 
+  border: 0.2px solid #CECECF;
+}
+.sellerLanguageFilterList{
+  border-bottom-style: solid;
+  border-color: #CECECF;
+  border-width: 0.2px;
+  margin-left:-1rem;
+}
+.sellerLanguageTextHeading{
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+.languageCategory{
+   display: block;
+   padding-bottom: 0.2rem;
+   margin-left: -2.55rem;
+   padding-left: 1rem;
+   font-size:0.85rem;
+}
+.languageCategoryAny{
+  display: block;
+  margin-left: -2.55rem;
+  padding-left: 1rem;
+  font-size:0.85rem;
+}
+/* .sellerLocationFilterList{
+  
+} */
+#sellerLocationTextHeading{
+  font-size:1.1rem;
+  padding:1rem 0rem;
+}
+.selectCountryDropdown{
+  width:15rem;
+  font-size: 1rem;
+  padding:0.5rem;
+}
+#clearAllFilterButtonId{
+  width: 15.2rem;
+  background-color: #CECECF;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 1rem 0rem 1rem 0rem;
+  border-radius: 5px;
+  color:black;
+}
+#clearAllFilterButtonId:hover{
+  background-color: #a4a4a5;
+}
