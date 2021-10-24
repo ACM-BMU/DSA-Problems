@@ -1,0 +1,366 @@
+ .leftColumnProfilePage{
+     float:left;
+     padding-right: 15px;
+     padding-left:15px;
+     width: 15rem;
+     font-family: Roboto;
+ }
+ .profileBox{
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    border: 1px #ddd solid;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+ }
+ .profileImageContainer{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 #ddd;
+    margin: 0rem 3rem;
+ }
+#userProfileImage{
+    /* width: 150px;
+    height:150px; */
+    padding-top: 1rem;
+}
+
+.profileBox h2{
+margin: 1rem;
+
+}
+.profileBox label{
+    font-size: 0.8rem;
+    margin:-3rem 1rem 1rem 1rem;
+}
+#pencilEditIconContainer{
+    margin: 0.7rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .07rem 0.75rem;
+    margin: 0.5rem 0.5rem 0.5rem -1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button, input {
+    overflow: visible;
+}
+.upbtn {
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.cancelbtn {
+    background: white;
+    color: #0F1d34;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 4px 20px;
+    height: 34px;
+    border: 1px  #0F1d34 solid;
+    width: 48%;
+    float: left;
+    margin-left: -1rem;
+}
+.cancelbtn:hover{
+    background-color: #1581CF;
+    color: white;
+    border: 1px  #1581CF solid;
+}
+
+.succbtn {
+    background: #0F1d34;
+    color: #fff;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 4px 20px;
+    height: 34px;
+    border: 1px #0F1d34;
+    width: 48%;
+    float: right;
+    margin-right:-0.5rem;
+}
+.succbtn:hover{
+background-color: #1581CF ;
+color: white;
+}
+.previewLink, .previewPublicMode{
+    margin:1rem;
+    text-decoration: none;
+    color:#1581CF;
+}
+.userBasicInfo ul li span{
+float: right;
+color:#0F1d34
+}
+.userBasicInfo{
+    font-size:0.8rem;
+    border-top:0.2px #495057 solid;
+}
+.userBasicInfo li{
+    padding:0.3rem;
+    margin-left:-2rem;
+    color:#0F1d34
+}
+/*Profile box Css ends here*/
+
+.userProfileDetailsContainer{
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    border: 1px #ddd solid;
+    padding: 30px;
+    position: relative;
+    margin: 15px 0;
+}
+.userProfileDetails div h3 {
+    color:#0F1d34;
+    font-size: 20px;
+    font-family: 'Roboto';
+    float: left;
+    margin-top:-0.2rem;
+}
+.userProfileDetails span{
+    cursor: pointer;
+    font-size: 14px;
+    /* display: inline-block; */
+    vertical-align: top;
+    padding-top: 2px;
+    margin-left: 10px;
+    float: right;
+    
+}
+.aboutYourselfTextArea {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+.textAboutYourself {
+    height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    font-family: Roboto;
+    font-size:1rem;
+    padding:0.5rem;
+    margin-left:-1rem;
+}
+.userProfileDetails {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px #ddd solid;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.socialMediaAccounts{
+    float:left;
+}
+.socialMediaAccounts ul{
+    margin: -1rem 1rem 1rem -2rem;
+    color: #1581CF;
+}
+.socialMediaAccounts ul li{
+    margin-top:1rem;
+}
+.socialMediaAccounts a{
+    text-decoration: none;
+    color: #1B9cF5;
+}
+#addProductsServicesButtonId{
+    background:#CECECF;
+    color: black;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 4px 20px;
+    height: 34px;
+    border: 1px #ddd;
+    width: 110%;
+    margin-left:-1rem;
+}
+#addProductsServicesButtonId:hover{
+    background-color: #1B9cF5;
+    color: white;
+}
+/* .displaynone{
+    display:none;
+} */
+
+
+ 
+ 
+ /* .leftProfileColumn{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.profileBox {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    border: 1px #ddd solid;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+} 
+.profile-img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 #ddd;
+    position: relative;
+}
+
+.profile-img img, .ploader img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.new-image-add {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+}
+.new-image-add input[type="file"] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.new-image-add a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    font-size: 25px;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+.ploader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999999999;
+    text-align: center;
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+    height: 100%;
+    display: none;
+}
+.profile-img img, .ploader img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#cameraIcon{
+   
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    
+}
+#cameraIcon:before {
+    content: "\f030";
+}
+.profile-bx h2 {
+    color: #000;
+    font-size: 20px;
+    font-family: 'robotobold';
+    padding: 10px 0;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+#phoneIcon, #pencilIcon {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.profile-bx p {
+    color: #666;
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6, ol, li, ul, a, img, p, span, strong {
+    padding: 0px;
+    margin: 0px;
+}
+.curpointer {
+    cursor: pointer;
+}
+.preview-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+.preview-btn .btn-default {
+    width: 100%;
+    color: #333;
+    font-size: 15px;
+    padding: 8px 12px;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+} */
